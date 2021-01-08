@@ -28,7 +28,7 @@ const config = convict({
             default: {
                 doc: "Indicates whether clients connect to this server by default. One server should have this set to true.",
                 format: Boolean,
-                default: false
+                default: true
             },
             alias: {
                 doc: "Optional, server selection box will show this instead of the actual server name.",
@@ -38,7 +38,7 @@ const config = convict({
             password: {
                 doc: "Optional, clients will be required to enter this password to connect to this server.",
                 format: String,
-                default: ''
+                default: 'testing'
             },
             ignoreChannels: {
                 doc: "Optional, list of text channel names or IDs you want to be ignored (cannot be used with listenChannels, case-sensitive).",
