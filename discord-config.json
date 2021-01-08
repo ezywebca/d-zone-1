@@ -1,6 +1,6 @@
 {
-  "url": "https://github.com/vegeta897/d-zone",
-  "infoCommand": "!d-zone",
+  "url": "http://zone.newbot.ga",
+  "infoCommand": "nb-zone",
   "autoPopulate": true,
   "servers": [
   ]
