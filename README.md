@@ -12,7 +12,7 @@ Hopefully the simulation is interesting to watch. You can see the current (unint
 
 ## Installation
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/d-zone-org/d-zone/tree/heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/ezywebca/d-zone-1/tree/heroku)
 
 If you don't want to use Heroku, proceed below.
 
