@@ -6,12 +6,12 @@ const config = convict({
     url: {
         doc: "The site URL where the simulation can be viewed.",
         format: "url",
-        default: ""
+        default: "http://zone.newbot.ga"
     },
     infoCommand: {
         doc: "The command which the bot will respond to with the site URL.",
         format: String,
-        default: "!d-zone"
+        default: "nb-zone"
     },
     autoPopulate: {
         doc: "Whether to create a d-zone for each Discord server the bot is in.",
@@ -23,7 +23,7 @@ const config = convict({
             id: {
                 doc: "The Discord server ID you want to simulate.",
                 format: String,
-                default: "123456789"
+                default: "783873034494148609"
             },
             default: {
                 doc: "Indicates whether clients connect to this server by default. One server should have this set to true.",
