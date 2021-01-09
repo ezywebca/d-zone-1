@@ -10,5 +10,20 @@
 </head>
 <body>
 <script src="static/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3">
+  const button = new Crate({
+ 		server: '783873034494148609',
+      channel: '796833294393147453',
+ 		shard: 'https://phox.herokuapp.com',
+	    location: ['bottom', 'right'],
+ 		glyph: ['https://cdn.discordapp.com/avatars/786638124075843635/b21001997274ed5e573ba1ccfd4b9b79.png?size=256', '100%']
+ 	})
+        button.notify('Have A Question About __NewBot?__\n```js\n// Ask Us Here!\n```')
+		crate.on('signIn', data => {
+        console.log(`Guest signed in as ${data.name}`)
+        crate.emit('sendMessage', '__Automated Message:__ Welcome Guest! **User On Cr8With Site**')
+  })
+</script>
+  </body>
 </body>
 </html>
